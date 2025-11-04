@@ -10,7 +10,7 @@ WORKDIR /app/build
 
 COPY . .
 
-RUN pnpm install
+RUN pnpm install --frozen-lockfile
 
 ENV NODE_ENV=production
 
