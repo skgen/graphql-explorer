@@ -1,0 +1,29 @@
+.sk-App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  &-header {
+    background-color: #2b3546;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-family: monospace;
+  }
+
+  &-editor {
+    flex: 1 1 auto;
+  }
+
+  &-empty {
+    background-color: #2b3546;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-family: monospace;
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

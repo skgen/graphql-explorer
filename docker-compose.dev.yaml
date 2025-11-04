@@ -1,0 +1,8 @@
+services:
+  app:
+    extends:
+      file: docker-compose.yaml
+      service: app
+    container_name: graphql-explorer
+    ports:
+      - '1337:3000'
